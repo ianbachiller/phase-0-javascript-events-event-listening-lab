@@ -1,10 +1,6 @@
-function addingEventListener() {
-    const input = document.getElementById('button');
-    input.addEventListener('click',function(){
-        // console.log("I was clicked yah bitches!")
-        alert("'Click me button' was clicked! Achievement! Allez!");
-    });
+const button = document.getElementById("button")
 
-
+function addingEventListener(){
+    button.addEventListener('click', () => console.log("❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️"))
 }
-addingEventListener();
+addingEventListener()
